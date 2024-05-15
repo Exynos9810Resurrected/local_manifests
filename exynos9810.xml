@@ -2,8 +2,17 @@
 <manifest>
 
 <remote name="cyder"
-          fetch="https://github.com/exynos9810-lastdance"
+          fetch="https://github.com/Exynos9810Resurrected"
           revision="fourteen" />
+
+
+<remote name="cyder2"
+          fetch="https://github.com/Exynos9810Resurrected"
+          revision="fourteen-v2" />
+
+<remote name="cyder2-kernel"
+          fetch="https://github.com/Exynos9810Resurrected"
+          revision="everest-up1a-v2" />
 
   <!--Device tree-->
   <project name="device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" remote="cyder"/>
@@ -22,6 +31,6 @@
   <project name="hardware_samsung_slsi" path="hardware/samsung_slsi" remote="cyder"/>
   
   <!-- Kernel -->
-  <project name="kernel_samsung_exynos9810" path="kernel/samsung/exynos9810" remote="cyder"/>
+  <project name="kernel_samsung_exynos9810" path="kernel/samsung/exynos9810" remote="cyder2-kernel"/>
 
 </manifest>
