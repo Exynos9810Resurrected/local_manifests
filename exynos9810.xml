@@ -14,6 +14,10 @@
           fetch="https://github.com/Exynos9810Resurrected"
           revision="everest-up1a-v2" />
 
+<remote name="cyder3"
+          fetch="https://github.com/samsungexynos9810"
+          revision="fourteen" />
+          
   <!--Device tree-->
   <project name="device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" remote="cyder"/>
   <project name="device_samsung_starlte" path="device/samsung/starlte" remote="cyder"/>
@@ -22,9 +26,9 @@
 
   <!-- Vendor -->
   <project name="vendor_samsung_exynos9810-common" path="vendor/samsung/exynos9810-common" remote="cyder"/>
-  <project name="vendor_samsung_starlte" path="vendor/samsung/starlte" remote="cyder"/>
-  <project name="vendor_samsung_star2lte" path="vendor/samsung/star2lte" remote="cyder"/>
-  <project name="vendor_samsung_crownlte" path="vendor/samsung/crownlte" remote="cyder"/>
+  <project name="vendor_samsung_starlte" path="vendor/samsung/starlte" remote="cyder3"/>
+  <project name="vendor_samsung_star2lte" path="vendor/samsung/star2lte" remote="cyder3"/>
+  <project name="vendor_samsung_crownlte" path="vendor/samsung/crownlte" remote="cyder3"/>
 
   <!-- SLSI -->
   <project name="device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="cyder"/>
