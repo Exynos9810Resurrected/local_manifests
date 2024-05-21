@@ -1,1 +1,1 @@
-git clone https://github.com/Exynos9810Resurrected/local_manifests -b main .repo/local_manifests
+git clone https://github.com/Exynos9810Resurrected/local_manifests -b fourteen-audio .repo/local_manifests
