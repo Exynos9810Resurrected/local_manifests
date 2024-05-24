@@ -15,7 +15,7 @@
           revision="everest-up1a-v2" />
 
 <remote name="cyder3"
-          fetch="https://github.com/samsungexynos9810"
+          fetch="https://github.com/Exynos9810Resurrected"
           revision="fourteen" />
           
   <!--Device tree-->
