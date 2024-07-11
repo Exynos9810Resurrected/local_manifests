@@ -15,11 +15,11 @@
           revision="everest-up1a-v2" />
 
 <remote name="cyder3"
-          fetch="https://github.com/Exynos9810Ressurected"
+          fetch="https://github.com/Exynos9810Resurrected"
           revision="fourteen" />
 
 <remote name="cyder-audio"
-          fetch="https://github.com/Exynos9810Ressurected"
+          fetch="https://github.com/Exynos9810Resurrected"
           revision="fourteen-audio" />
           
   <!--Device tree-->
